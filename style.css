@@ -1,0 +1,46 @@
+.brand-color-pink {
+    color: #ffc8dd !important;
+}
+
+.links-color-babyblue {
+    color: #a2d2ff !important;
+}
+
+.brand-color-pink:hover {
+    color: #cdb4db !important;
+}
+
+
+.links-color-babyblue:hover {
+    color: #cdb4db !important;
+}
+
+.bg {
+    position: fixed;
+    z-index: -1;
+}
+
+.shadowForBox {
+    box-shadow: 1px 1px 17px rgb(0, 0, 0);
+}
+
+
+
+html {
+    overflow: scroll !important; 
+    overflow-x: hidden !important;
+    }
+    ::-webkit-scrollbar {
+    width: 0px !important;
+        }
+
+.blurryStuff {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+
+}
+.blurryStuff2 {
+    background-color: rgba(209, 93, 255, 0.5) !important;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
