@@ -30,6 +30,85 @@ body {
     background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven Pro');
+
+.containerCards {
+    transform-style: preserve-3d
+}
+
+.containerCards .box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer
+}
+
+.containerCards .box .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease
+}
+
+.containerCards .box .body .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d
+}
+
+.containerCards .box .body .imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.containerCards .box .body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.61);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg)
+}
+
+.containerCards .box:hover .body {
+    transform: rotateY(180deg)
+}
+
+.containerCards .box .body .content div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, #7db5ff, #ff81b1);
+    transform: translateZ(100px)
+}
+
+.containerCards .box .body .content div h3 {
+    letter-spacing: 1px
+}
+
+.boxShadowAnimationFront {
+    box-shadow: 2px 2px 5px black !important;
+}
+
+.boxShadowAnimationFront:hover {
+    box-shadow: -2px 2px 5px black !important;
+}
 
 
 html {
