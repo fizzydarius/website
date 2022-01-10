@@ -25,11 +25,12 @@
 }
 
 body {
-    background: #654ea3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #654ea3;  
+    background: -webkit-linear-gradient(to top, black, 20%, indigo);
+    background: linear-gradient(to top, black, 20%, indigo);
 }
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Maven Pro');
 
@@ -110,6 +111,10 @@ body {
     box-shadow: -2px 2px 5px black !important;
 }
 
+body, html{
+    margin:0;
+    padding:0;
+}
 
 html {
     overflow: scroll !important; 
@@ -129,3 +134,8 @@ html {
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}

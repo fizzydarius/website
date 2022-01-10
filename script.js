@@ -13,3 +13,7 @@ function openGitHub() {
 function sendMail() {
   window.open("mailto:whoami.420.f@gmail.com")
 }
+
+function bodyRecomp() {
+  window.open("https://www.healthline.com/nutrition/body-recomposition")
+}
