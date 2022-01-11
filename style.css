@@ -15,6 +15,7 @@
     color: #cdb4db !important;
 }
 
+
 .bg {
     position: fixed;
     z-index: -1;
@@ -109,6 +110,13 @@ body {
 
 .boxShadowAnimationFront:hover {
     box-shadow: -2px 2px 5px black !important;
+}
+
+.boxShadowCat{
+    box-shadow: 3px 3px 8px black !important;
+}
+.boxShadowCat:hover {
+    box-shadow: -3px 2px 8px black !important;
 }
 
 body, html{
